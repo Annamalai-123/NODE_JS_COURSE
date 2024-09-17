@@ -1,0 +1,8 @@
+node js complete course in this course 
+we learn 01 about os version type read home directory
+current directory and current file and extension
+use the parse to retun object use basename and filename
+node js complete course in this course 
+we learn 01 about os version type read home directory
+current directory and current file and extension
+use the parse to retun object use basename and filename
