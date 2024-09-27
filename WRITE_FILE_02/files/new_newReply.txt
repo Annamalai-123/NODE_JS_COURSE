@@ -1,3 +1,5 @@
 this is my reply text
 
+ practice this text was added by append methodthis is my reply text
+
  practice this text was added by append method

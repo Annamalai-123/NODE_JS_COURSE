@@ -1,4 +1,4 @@
 This is Annamalai 
 A complete node js course
 
- this us added text using asyn  await append file.
+ this us added text using async await append file.

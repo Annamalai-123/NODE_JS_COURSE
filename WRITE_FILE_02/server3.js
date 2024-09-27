@@ -20,10 +20,9 @@ process.on('uncaughtException',err=>{    //process inbuild node function
     console.error(`there was uncaught err :${err}`);
     process.exit(1);
 })
-
-
++
 //write file
-fs.writeFile(path.join(__dirname,'files','reply.txt'),'hi',(err)=>{
+fs.writeFile(path.join(__dirname,'files','reply.txt'),'this is my reply text',(err)=>{
     if(err) throw err;
     console.log('writing in file');
 
@@ -38,7 +37,7 @@ fs.rename(path.join(__dirname,'files','reply.txt'),(path.join(__dirname,'files',
     
 //Append
 
-     fs.appendFile(path.join(__dirname,'files','reply.txt'),'\n\n hi',(err)=>{
+     fs.appendFile(path.join(__dirname,'files','reply.txt'),'\n\n practice this text was added by append method',(err)=>{
         if(err) throw err;
         console.log('writing in a file appended');
     }) // add a any text or something into the existing file with append 
